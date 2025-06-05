@@ -16,6 +16,11 @@
   dependencies: nlme, CorrMixed, lme4, lmerTest, geepack, ggplot2, car, emmeans, effectsize, simr
   (same remark about redundancy of libraries)
 
+* **means_sd.R** calculates means and standard deviations of data.
+
+  dependencies: matrixStats
+
+
 NOTE: All this should run as of June 6, 2025. Please contact me with questions or if you spot any mistakes: marie.zelenina@nih.gov.
 
 NOTE1: EEG preprocessing was done in MATLAB; the code is published elsewhere.
