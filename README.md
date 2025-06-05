@@ -4,9 +4,11 @@
 * **code_MarieStuff.R** runs the main statistical analysis (LMM) and posthocs for *individual frequencies*.
   
   dependencies: nlme, CorrMixed, lme4, lmerTest, geepack, ggplot2, car, emmeans, effectsize, simr
+  
   Note: I'm almost sure that some of these libraries are not strictly necessary and/or are redundant, but I know the code runs correctly with all of them installed.
   
 * **code_MarieStuff_ACC.R** runs the main statistical analysis (LMM) and posthocs for *cross-frequency-couplings*.
+  
   It is very similar to code_MarieStuff.R, with the same dependencies.
 
 * **code_MarieStuff_behav.R** performs statistical analysis of *behavioral scales*: LMM, posthoc correlations, t-tests; plots of behavioral data.
